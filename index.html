@@ -19,7 +19,12 @@
   <li><a href="/downloads"><i class="icon fa fa-cloud"></i> Downloads</a></li>
   <li><a href="/documentation"><i class="fa fa-book"></i> Documentation</a></li>
   <li><a href="/about"><i class="fa-solid fa-address-card"></i> About</a></li>
-  <a title="Spanish" href="qa-html-language-declarations.es"><span lang="es">Español</span></a>
+  <select name="language-picker-select" id="language-picker-select">
+    <option lang="de" value="deutsch">Deutsch</option>
+    <option lang="en" value="english" selected>English</option>
+    <option lang="fr" value="francais">Français</option>
+    <option lang="it" value="italiano">Italiano</option>
+  </select>
 </ul>
 <h1 style="color: white;">Home</h1>
 <h2 style="color: white;">Release of a 4.8 proplus6 version!<h2>
@@ -30,6 +35,7 @@
 <p style="color: white;">- Expections on glitched out errors</p>
 <!-- partial -->
 <!--  <script src='jq.js'></script>-->
+<script src='switch.js'></script>
 <div id="footer">
   <hr>
   <p style="color: white;">Copyright © 2023 proplus6. All rights reversed.</p>
