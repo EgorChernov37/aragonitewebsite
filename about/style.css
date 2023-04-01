@@ -101,4 +101,7 @@ li a:hover:not(.active) {
 hr {
   width:50%;
   margin:0 auto;
+  background-color: #51566b;
+  border-top: 1px solid #51566b;
+  color: #51566b;
 }
